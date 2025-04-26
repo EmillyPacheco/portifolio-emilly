@@ -1,0 +1,16 @@
+footer{
+    width: 90%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 0 5%;
+
+    
+}
+.footer_btn{
+    width: 6%;
+    height: 45%;
+    font-size: 3.6vh;
+}

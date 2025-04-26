@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Judson:ital,wght@0,400;0,700;1,400&family=Julius+Sans+One&display=swap');
 @import url(./footer.css);
 @import url(./hedaer.css);
 @import url(./main.css);
@@ -8,124 +9,13 @@ body {
 
     margin: 0;
     padding: 0;
+    background-color: black;
+    background-image: url(./img/fundo_gpt.png);
+    /* background-image: linear-gradient(43deg, #8d89a9 0%, #9a92b5 22%, #542554 49%, #9c7eab 75%, #a589b5 100%); */
+
 }
 
-header {
-    width: 100%;
-    height: 16%;
+:root{
+    --color_with: #ffffff;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-    background-color: #750ed4;
-}
-
-#header_section {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-
-    background-color: #750ed4;
-}
-
-#logo {
-    width: 15%;
-    height: 60%;
-
-    background-color: #b790db;
-}
-
-#title_header {
-    font-size: 2vw;
-    margin: 0 5%;
-
-    background-color: #b790db;
-}
-
-#header_btns {
-    width: 35%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    background-color: #b790db;
-}
-
-.header_btn {
-    width: 30%;
-    height: 30%;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-    background-color: #b790db;
-}
-
-main {
-    width: 100%;
-    height: 72%;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-    background-color: blueviolet;
-}
-#img_logo{
-    width: 30%;
-    height: 80%;
-
-    background-color: #b790db;
-}
-#infos{
-    width: 60%;
-    height: 60%;
-    font-size: 0.8vw;
-
-    background-color: #b790db ;
-}
-#first_name{
-    font-size: 2.8vw;
-    margin: 0 6%;
-
-    background-color: #6b5283;
-}
-#last_name{
-    font-size: 2.8vw;
-    margin: 0 8%;
-
-    background-color: #b790db;
-}
-#description{
-    font-size: 1.6vw;
-    margin: 2.8%;
-
-    background-color: #6b5283;
-}
-
-footer{
-    width: 90%;
-    height: 12%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    padding: 0 5%;
-
-    background-color: #6b5283;
-}
-.footer_btn{
-    width: 6%;
-    height: 45%;
 }
