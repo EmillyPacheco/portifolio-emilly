@@ -1,0 +1,44 @@
+#header_section {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+}
+
+#logo {
+
+    width: auto;
+    height: 100%;
+}
+
+#title_header {
+    font-size: 2vw;
+    margin: 0 4%;
+
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 820px){
+    #header_section {
+        width: 58%;
+    }
+    #title_header {
+        font-size: 3vw;
+    }
+
+}
+@media (max-width: 480px) {
+    #header_section {
+        width: 50%;
+    }
+    #title_header {
+        font-size: 2.6vw;
+
+    }
+}

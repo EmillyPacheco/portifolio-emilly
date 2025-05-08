@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilly Pacheco</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/6f6abf0972.js" crossorigin="anonymous"></script>
+    <script type="mudule" src="projects.js"></script>
+  </head>
+  <body >
+    <header >
+        <div id="header_section" >
+          <h1 id="title_header"> Estudante de T.I.</h1>
+        </div>
+        <div id="header_btn">
+          <button class="button" onclick="window.location.href='./home.js'"> 
+            <h1>HOME</h1>
+            <i class="fa-solid fa-house"></i>
+          </button>
+          <button class="button" onclick="window.location.href= './projects.js'">
+            <h1>PROJETOS</h1>
+            <i class="fa-solid fa-folder"></i>
+          </button>
+          <button class="button" onclick="window.location.href= './formation.js'">
+            <h1>FORMAÇÃO</h1>
+            <i class="fa-solid fa-graduation-cap"></i>
+          </button>
+        </div>
+      </header>
+
+      <button onclick="switchMenu()" id="btn_menu"></button>
+      <div id="menu_container"></div>
+  </body>

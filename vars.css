@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Judson:ital,wght@0,400;0,700;1,400&family=Julius+Sans+One&display=swap');
+:root{
+    --color_with: #ffffff;
+    --btn_footer: #a570a5;
+    --bg: #000;
+    --hover-bg: #805580;
+    --hover-text: #000;
+
+}

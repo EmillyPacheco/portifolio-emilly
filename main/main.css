@@ -1,4 +1,5 @@
-
+@import url(./infos_main.css);
+@import url(./main_animation.css);
 main {
     width: 100%;
     height: 76%;
@@ -6,55 +7,14 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-
-    
+    justify-content: center;  
 }
 #img_logo{
     width: auto;
     height: 90%;
     border-radius: 10%;
     margin: 5%
-
-  
 }
-#infos{
-    width: 40%;
-    height: 82%;
-    font-size: 0.8vw;
-
-   
-}
-#first_name{
-    font-size: 3.8vw;
-    margin: 0 18%;
-    color: white;
-
-    
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-#last_name{
-    font-size: 3.8vw;
-    margin: 0 20%;
-
-    color: white;
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-#description{
-    font-size: 1.4vw;
-    margin: 3%;
-
-    color: white;
-    font-family: "Julius Sans One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-}
-
 @media (max-width: 820px) {
     main {
         flex-direction: column;
@@ -85,7 +45,6 @@ main {
     }
 }
 
-
 @media (max-width: 480px) {
 
     #img_logo {
@@ -106,5 +65,9 @@ main {
     #description {
         font-size: 3.8vw;
         text-align: left;
+    }
+
+    #animation{
+       display: none;
     }
 }
