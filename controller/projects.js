@@ -1,4 +1,4 @@
-import { createCards } from "./cards.js";
+import { createCards } from "../view/js/cards.js";
  
 //Formato para funções utilizadas por tags
 // window.switchMenu = switchMenu
