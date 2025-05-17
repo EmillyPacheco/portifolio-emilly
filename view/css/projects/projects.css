@@ -1,5 +1,5 @@
-@import url(./header/header.css);
-@import url(./vars.css);
+@import url(./../index/header/header.css);
+@import url(./../vars.css);
 body {
     width: 100vw;
     height: 100vh;
@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(./img/fundo_gpt.png);
+    background-image: url(/assets/img/fundo_gpt.png);
     /* background-image: linear-gradient(43deg, #8d89a9 0%, #9a92b5 22%, #542554 49%, #9c7eab 75%, #a589b5 100%); */
 
 }
